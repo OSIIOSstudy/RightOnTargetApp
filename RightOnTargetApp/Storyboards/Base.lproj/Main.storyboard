@@ -54,6 +54,9 @@
                                                 <state key="normal" title="Проверить">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="verificationButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="6I4-Mx-qvH"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7C-He-M8w">
                                                 <rect key="frame" x="326" y="58.000000000000028" width="12.333333333333314" height="24"/>
@@ -79,6 +82,10 @@
                             </constraint>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="valueLabel" destination="R7C-He-M8w" id="RR6-Kf-gb7"/>
+                        <outlet property="valueSlider" destination="zrb-n7-K8a" id="zDF-A9-aBv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
